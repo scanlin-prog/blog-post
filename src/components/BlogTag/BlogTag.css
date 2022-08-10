@@ -1,0 +1,59 @@
+.tag {
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 8px;
+	cursor: pointer;
+	transition: background-color .25s ease-out;
+}
+
+.tag:last-child {
+	margin-right: 0;
+}
+
+.tag__title {
+	font-size: 12px;
+	margin: 6px 12px;
+	font-weight: 500;
+}
+
+.tag_theme-product {
+	background-color: #5D5DFF;
+}
+
+.tag_theme-product:hover {
+	background-color: rgb(75, 74, 207);
+}
+
+.tag_theme-engineering {
+	background-color: #3B82F6;
+}
+
+.tag_theme-engineering:hover {
+	background-color: rgb(37, 99, 235);
+}
+
+.tag_theme-culture {
+	background-color: #22C55E;
+}
+
+.tag_theme-culture:hover {
+	background-color: rgb(22, 163, 74);
+}
+
+.tag_theme-design {
+	background-color: #EC4899;
+}
+
+.tag_theme-design:hover {
+	background-color: rgb(219, 39, 119);
+}
+
+.tag_theme-tutorials-and-articles {
+	background-color: #14B8A6;
+}
+
+.tag_theme-tutorials-and-articles:hover {
+	background-color: rgb(13, 148, 136);
+}

@@ -1,0 +1,130 @@
+.article {
+	max-width: 768px;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	text-align: start;
+}
+
+.article__image-container {
+	margin: 0 0 32px;
+}
+
+.article__image {
+	width: 100%;
+	margin: 0 0 12px;
+}
+
+.article__image-label {
+	margin: 0;
+	font-size: 14px;
+	color: #707D86;
+	text-align: center;
+}
+
+.article__text-main {
+	color: #9BA9B4;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 0 0 32px;
+}
+
+.article__blockquote {
+	font-style: italic;
+	padding-left: 16px;
+	border-left: 2px solid #D9E3EA;
+}
+
+.article__title {
+	margin: 0 0 16px;
+}
+
+.article__title-large {
+	font-size: 32px;
+}
+
+.article__title-middle {
+	font-size: 24px;
+}
+
+.article__title-small {
+	font-size: 18px;
+	margin-bottom: 32px;
+}
+
+.article__links {
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	margin: 0 0 80px;
+}
+
+.article__links-text {
+	font-style: italic;
+	margin: 0 0 16px;
+}
+
+.article__links-link {
+	list-style: none;
+	text-decoration: none;
+	color: #D9E3EA;
+}
+
+.article__icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+}
+
+.article__link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 32px;
+	height: 32px;
+	margin: 0 16px 0 0;
+	border-radius: 50%;
+}
+
+.article__icon {
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	transition: background-image .25s ease-out;
+}
+
+.article__icon-twitter {
+	background-image: url(../../images/Twitter.svg);
+}
+
+.article__icon-twitter:hover {
+	background-image: url(../../images/Twitter_hover.svg);
+}
+
+.article__icon-facebook {
+	background-image: url(../../images/Facebook.svg);
+}
+
+.article__icon-facebook:hover {
+	background-image: url(../../images/Facebook_hover.svg);
+}
+
+.article__icon-linkedln {
+	background-image: url(../../images/LinkedIn.svg);
+}
+
+.article__icon-linkedln:hover {
+	background-image: url(../../images/LinkedIn_hover.svg);
+}
+
+@media (max-width: 767px) {
+
+	.article__links {
+		flex-direction: column;
+		align-items: center;
+		text-align: center;
+	}
+}

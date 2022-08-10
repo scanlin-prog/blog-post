@@ -1,0 +1,25 @@
+.publication-data {
+	display: flex;
+	align-items: center;
+	flex-grow: 1;
+	margin-bottom: 16px;
+}
+
+.publication-data__user-image {
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 14px;
+	cursor: pointer;
+}
+
+.publication-data__user-name {
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.publication-data__date {
+	color: #707D86;
+	margin-left: 14px;
+	cursor: auto;
+}

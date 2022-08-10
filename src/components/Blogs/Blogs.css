@@ -1,0 +1,15 @@
+.blogs-container {
+	width: 100%;
+	margin: 0 auto 66px;
+	display: grid;
+	grid-template: repeat(1, 1fr) / repeat(3, minmax(0, 1fr));
+	gap: 20px;
+}
+
+@media (max-width: 767px) {
+	.blogs-container {
+			margin-bottom: 48px;
+			grid-template: repeat(1, 1fr) / repeat(1, minmax(0, 1fr));
+			gap: 48px;
+		}
+}

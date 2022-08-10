@@ -1,0 +1,39 @@
+.blog {
+	width: 100%;
+	height: 100%;
+	text-align: start;
+	display: flex;
+	flex-direction: column;
+}
+
+.blog__image {
+	width: 100%;
+	margin: 0 0 24px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.blog__image img{
+	width: 100%;
+	transition: transform .3s linear;
+}
+
+.blog__image img:hover {
+	width: 100%;
+	transform: scale(1.05);
+}
+
+.blog__title {
+	line-height: 1.375;
+	font-size: 24px;
+	margin: 12px 0 8px;
+	cursor: pointer;
+}
+
+.blog__text {
+	color: #9BA9B4;
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 0 0 16px;
+	flex-grow: 1;
+}
